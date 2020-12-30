@@ -23,7 +23,6 @@ This is a sample of C project for publishing into OBS
 
 
 %build
-cd helloworld
 make %{?_smp_mflags}
 
 
