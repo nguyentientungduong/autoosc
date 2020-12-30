@@ -28,6 +28,7 @@ make %{?_smp_mflags}
 
 
 %install
+cd helloworld
 make install DESTDIR=%{buildroot}
 
 
