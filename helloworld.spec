@@ -1,11 +1,10 @@
 Name:		autoosc
 Version:	0.0.1
-Release:	1%{?dist}
+Release:	0
 Summary:	Sample C program for OBS
-
-Group:		Documentation
+Group:    Metapackages
 License:	GPL-3.0
-URL:		https://github.com/nguyentientungduong/autoosc
+URL:		  https://github.com/nguyentientungduong/autoosc
 
 BuildRequires:	gcc
 BuildRequires:	make
