@@ -1,10 +1,12 @@
 Name:		autoosc
-Version:  0.0.1
-Release:  0
-Summary:  Sample C program for OBS
-Group:    Metapackages
-License:  GPL-3.0
-URL:      https://github.com/nguyentientungduong/autoosc
+Version:	0.0.1
+Release:	1%{?dist}
+Summary:	Sample C program for OBS
+
+Group:		Documentation
+License:	GPL-3.0
+URL:		https://github.com/nguyentientungduong/autoosc
+Source:	autoosc.git
 
 BuildRequires:	gcc
 BuildRequires:	make
@@ -16,8 +18,16 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 %description
 This is a sample of C project for publishing into OBS
 
+%prep
+%setup -q -n %{name}-%{version}
+
+
+%build
+cd helloworld
+make %{?_smp_mflags}
+
+
 %install
-ls
 cd helloworld
 make install DESTDIR=%{buildroot}
 
@@ -29,4 +39,3 @@ make install DESTDIR=%{buildroot}
 
 
 %changelog
-
