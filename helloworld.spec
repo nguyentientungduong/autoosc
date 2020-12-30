@@ -1,5 +1,5 @@
 Name:		helloworld
-Version:	1.0.0
+Version:	1.1.1
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
 
