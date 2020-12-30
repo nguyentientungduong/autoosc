@@ -28,13 +28,12 @@ make %{?_smp_mflags}
 
 
 %install
-cd helloworld
 make install DESTDIR=%{buildroot}
 
 
 %files
 %defattr(-,root,root,-)
-%doc helloworld/LICENSE
+%doc LICENSE
 %{_bindir}/*
 
 
