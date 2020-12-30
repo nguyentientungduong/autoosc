@@ -1,12 +1,12 @@
 Name:		helloworld
-Version:	1.0.0
+Version:	1.0
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
 
 Group:		Documentation
 License:	GPL-3.0
 URL:		https://github.com/oanhltko/chello
-Source0:	https://github.com/oanhltko/chello/archive/chello-1.0.tar.gz
+Source0:	https://github.com/oanhltko/chello/blob/master/%{name}-%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	make
