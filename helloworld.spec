@@ -1,4 +1,4 @@
-Name:		autoosc
+Name:		helloworld
 Version:	0.0.1
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
@@ -6,7 +6,7 @@ Summary:	Sample C program for OBS
 Group:		Documentation
 License:	GPL-3.0
 URL:		https://github.com/nguyentientungduong/autoosc
-Source:	autoosc.git
+Source:	helloworld
 
 BuildRequires:	gcc
 BuildRequires:	make
