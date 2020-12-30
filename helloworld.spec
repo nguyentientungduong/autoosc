@@ -34,7 +34,7 @@ make install DESTDIR=%{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc LICENSE
+%doc helloworld/LICENSE
 %{_bindir}/*
 
 
