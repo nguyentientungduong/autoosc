@@ -1,5 +1,5 @@
 Name:		myapp
-Version:	0.0.1
+Version:	git
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
 
