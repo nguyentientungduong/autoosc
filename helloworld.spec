@@ -1,4 +1,4 @@
-Name:		helloworld
+Name:		autoosc
 Version:	0.0.1
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
