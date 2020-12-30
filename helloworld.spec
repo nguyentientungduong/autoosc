@@ -17,6 +17,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-build
 This is a sample of C project for publishing into OBS
 
 %install
+ls
 cd helloworld
 make install DESTDIR=%{buildroot}
 
