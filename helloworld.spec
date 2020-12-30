@@ -6,7 +6,7 @@ Summary:	Sample C program for OBS
 Group:		Documentation
 License:	GPL-3.0
 URL:		https://github.com/nguyentientungduong/autoosc
-Source:	_service_tar_scm_myapp-git.tar
+Source:	myapp-git.tar
 
 BuildRequires:	gcc
 BuildRequires:	make
