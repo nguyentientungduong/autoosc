@@ -1,0 +1,24 @@
+-------------------------------------------------------------------
+Mon Apr 22 08:03:02 UTC 2019 - Kim Oanh <subinashouse@gmail.com>
+
+-Correct the list of doc file on .spec 
+
+-------------------------------------------------------------------
+Mon Apr 22 07:56:15 UTC 2019 - Kim Oanh <subinashouse@gmail.com>
+
+- Correct url for tar file
+
+-------------------------------------------------------------------
+Mon Apr 22 07:40:15 UTC 2019 - Kim Oanh <subinashouse@gmail.com>
+
+- Change name of package to chello
+
+-------------------------------------------------------------------
+Mon Apr 22 07:37:50 UTC 2019 - Kim Oanh <subinashouse@gmail.com>
+
+- Change the spec file for build local 
+
+-------------------------------------------------------------------
+Mon Apr 22 07:30:55 UTC 2019 - Kim Oanh <subinashouse@gmail.com>
+
+- Create spec file sample for OBS 

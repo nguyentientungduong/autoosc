@@ -1,0 +1,15 @@
+Source: helloworld
+Section: utils
+Priority: optional
+Maintainer: Ubuntu 1804-x64 <subinashouse@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage:https://github.com/
+Vcs-Git: https://github.com/
+Vcs-Browser: https://github.com/
+
+Package: helloworld
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A deb package for C Hello world
+  A deb pacakge for C language. Hello world. Demo for publish to OBS repo.

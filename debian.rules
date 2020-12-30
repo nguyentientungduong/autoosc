@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+#%:
+#	dh $@
+
+
+build: clean
+	make
+
+binary:
+	dh_install
+	dh_installdeb
+	dh_gencontrol
+	dh_link
+	dh_builddeb
+
+clean: 
+
+.PHONY: clean configure build binary
+
