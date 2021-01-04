@@ -1,8 +1,8 @@
 Format: 3.0 (native)
-Source: myapp-git
-Binary: myapp-git
+Source: myapp
+Binary: myapp
 Architecture: any
-Version: 1.0.0
+Version: git
 Maintainer: Nguyen Tien Tung Duong <nguyentientungduong@gmail.com>
 Homepage: https://github.com/
 Standards-Version: 4.1.2
