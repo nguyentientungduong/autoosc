@@ -23,16 +23,18 @@ This is a sample of C project for publishing into OBS
 
 
 %build
+cd helloworld
 make %{?_smp_mflags}
 
 
 %install
+cd helloworld
 make install DESTDIR=%{buildroot}
 
 
 %files
 %defattr(-,root,root,-)
-%doc LICENSE
+%doc helloworld/LICENSE
 %{_bindir}/*
 
 
