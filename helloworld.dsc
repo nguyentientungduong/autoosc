@@ -1,6 +1,6 @@
 Format: 3.0 (native)
-Source: helloworld
-Binary: helloworld
+Source: myapp-git
+Binary: myapp-git
 Architecture: any
 Version: 1.0.0
 Maintainer: Nguyen Tien Tung Duong <nguyentientungduong@gmail.com>
