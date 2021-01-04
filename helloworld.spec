@@ -6,7 +6,7 @@ Summary:	Sample C program for OBS
 Group:		Documentation
 License:	GPL-3.0
 URL:		https://github.com/oanhltko/chello
-Source0:	helloworld-1.0.0.tar
+Source0:	helloworld-1.0.0.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	make
