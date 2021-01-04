@@ -1,12 +1,12 @@
-Name:		myapp
-Version:	git
+Name:		helloworld
+Version:	client
 Release:	1%{?dist}
 Summary:	Sample C program for OBS
 
 Group:		Documentation
 License:	GPL-3.0
 URL:		https://github.com/nguyentientungduong/autoosc
-Source:	myapp-git.tar
+Source:	helloworld-client.tar
 
 BuildRequires:	gcc
 BuildRequires:	make
