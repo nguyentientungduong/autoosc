@@ -5,7 +5,7 @@
 
 
 build: clean
-	make
+	cd helloworld && make
 
 binary:
 	dh_install
