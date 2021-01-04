@@ -1,4 +1,4 @@
-Source: helloworld
+Source: myapp-git
 Section: utils
 Priority: optional
 Maintainer: Ubuntu 1804-x64 <subinashouse@gmail.com>
