@@ -5,6 +5,7 @@
 
 
 build: clean
+	cd helloworld
 	make
 
 binary:
