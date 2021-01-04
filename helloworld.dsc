@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: helloworld
 Binary: helloworld
 Architecture: any
-Version: client
+Version: 1.0.0
 Maintainer: Nguyen Tien Tung Duong <nguyentientungduong@gmail.com>
 Homepage: https://github.com/
 Standards-Version: 4.1.2
